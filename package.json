@@ -1,6 +1,6 @@
 {
-  "name": "@polymer/aspen-link-button",
-  "version": "",
+  "name": "@aspen-elements/aspen-link-button",
+  "version": "0.5.1",
   "resolutions": {
     "inherits": "2.0.3",
     "samsam": "1.1.3",
