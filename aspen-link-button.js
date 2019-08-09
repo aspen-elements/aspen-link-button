@@ -1,9 +1,8 @@
-import { PolymerElement } from '/node_modules/@polymer/polymer/polymer-element.js';
-import '/node_modules/@polymer/paper-tooltip/paper-tooltip.js';
-import '/node_modules/@polymer/iron-icon/iron-icon.js';
-import { html } from '@polymer/polymer/lib/utils/html-tag.js';
+import { PolymerElement ,html} from '@polymer/polymer/polymer-element.js';
+import '@polymer/paper-tooltip/paper-tooltip.js';
+import '@polymer/iron-icon/iron-icon.js'
 import { afterNextRender } from '@polymer/polymer/lib/utils/render-status.js';
-import '@aspen-elements/aspen-link-fld-mixin';
+import {AspenLinkFldMixin} from '@aspen-elements/aspen-link-fld-mixin';
 
 /**
  * `aspen-link-button` This component contains a single icon which allows the user to go to a 
@@ -51,8 +50,6 @@ class AspenLinkButton extends AspenLinkFldMixin(PolymerElement) {
             }
 
         </style>
-
-        
         
         <paper-tooltip for="linkbutton" position="bottom" offset="14">
           [[tooltip]]
