@@ -9,7 +9,7 @@
   },
   "main": "aspen-link-button.js",
   "dependencies": {
-    "@aspen-elements/aspen-link-fld-mixin": "^0.5.1",
+    "@aspen-elements/aspen-link-fld-mixin": "^0.5.2",
     "@polymer/iron-icon": "^3.0.0",
     "@polymer/iron-icons": "^3.0.0",
     "@polymer/paper-toolbar": "^3.0.0",
@@ -20,5 +20,22 @@
     "@polymer/iron-demo-helpers": "^3.0.0",
     "wct-browser-legacy": "^1.0.1",
     "@webcomponents/webcomponentsjs": "^2.0.0"
-  }
+  },
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aspen-elements/aspen-link-button.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aspen-elements/aspen-link-button/issues"
+  },
+  "homepage": "https://github.com/aspen-elements/aspen-link-button#readme"
 }
